@@ -490,11 +490,11 @@ section {
 	border-color: #34495e;
 }
 
-.service:hover .icon-holder {
+.service .icon-holder {
 	top: -30px;
 }
 
-.service:hover .heading {
+.service .heading {
 	top: -30px;
 }
 
@@ -509,7 +509,7 @@ section {
 	transform: scale(0);
 }
 
-.service:hover .description {
+.service .description {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
@@ -532,7 +532,7 @@ section {
 	transition: opacity 0.45s ease;
 }
 
-.team:hover .cover .overlay {
+.team .cover .overlay {
 	opacity: 1;
 }
 

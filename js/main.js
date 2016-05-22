@@ -103,11 +103,6 @@ jQuery(function($) {
 		$('#pricing').css("background-size", "cover");
 	});
 
-	// Mobile Nav
-	$('body').on('click', 'nav .navbar-toggle', function() {
-		event.stopPropagation();
-		$('.mobile-nav').addClass('active');
-	});
 
 	$('body').on('click', '.mobile-nav a', function(event) {
 		$('.mobile-nav').removeClass('active');
