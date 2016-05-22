@@ -495,10 +495,11 @@ section {
 }
 
 .service .heading {
-	top: -30px;
+	top: -60px;
 }
 
 .service .description {
+    margin-top: -50px !important;
 	width: 80%;
 	margin: 0 auto;
 	opacity: 0;
